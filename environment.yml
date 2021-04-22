@@ -1,0 +1,14 @@
+name: binder-test
+
+channels:
+  - default
+  - conda-forge
+
+dependencies:
+  - python=3.8.6
+  - pip
+  - git
+  - git-annex
+  - matplotlib
+  - nilearn
+  - datalad=0.13
